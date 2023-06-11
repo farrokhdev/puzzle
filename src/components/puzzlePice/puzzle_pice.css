@@ -1,0 +1,74 @@
+/* puzzlePice  */
+.puzzle_pice {
+  width: var(--pice_size);
+  height: var(--pice_size);
+  transition: left 0.2s, top 0.2s;
+}
+.puzzle_pice.disabled {
+  pointer-events: none;
+  background-color: black;
+}
+.puzzle_pice.slot__0 {
+  left: 0;
+  top: 0;
+}
+.puzzle_pice.slot__1 {
+  left: calc(var(--pice_size));
+  top: 0;
+}
+.puzzle_pice.slot__2 {
+  left: calc(2 * var(--pice_size));
+  top: 0;
+}
+.puzzle_pice.slot__3 {
+  left: calc(3 * var(--pice_size));
+  top: 0;
+}
+.puzzle_pice.slot__4 {
+  left: 0;
+  top: calc(var(--pice_size));
+}
+.puzzle_pice.slot__5 {
+  left: calc(var(--pice_size));
+  top: calc(var(--pice_size));
+}
+.puzzle_pice.slot__6 {
+  left: calc(2 * var(--pice_size));
+  top: calc(var(--pice_size));
+}
+.puzzle_pice.slot__7 {
+  left: calc(3 * var(--pice_size));
+  top: calc(var(--pice_size));
+}
+.puzzle_pice.slot__8 {
+  left: 0;
+  top: calc(2 * var(--pice_size));
+}
+.puzzle_pice.slot__9 {
+  left: calc(var(--pice_size));
+  top: calc(2 * var(--pice_size));
+}
+.puzzle_pice.slot__10 {
+  left: calc(2 * var(--pice_size));
+  top: calc(2 * var(--pice_size));
+}
+.puzzle_pice.slot__11 {
+  left: calc(3 * var(--pice_size));
+  top: calc(2 * var(--pice_size));
+}
+.puzzle_pice.slot__12 {
+  left: 0;
+  top: calc(3 * var(--pice_size));
+}
+.puzzle_pice.slot__13 {
+  left: calc(var(--pice_size));
+  top: calc(3 * var(--pice_size));
+}
+.puzzle_pice.slot__14 {
+  left: calc(2 * var(--pice_size));
+  top: calc(3 * var(--pice_size));
+}
+.puzzle_pice.slot__15 {
+  left: calc(3 * var(--pice_size));
+  top: calc(3 * var(--pice_size));
+}
